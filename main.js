@@ -63,9 +63,7 @@ tl.to(".intro_animation  div", {
   stagger: 0.2,
   delay: -0.9,
 });
-tl.to(".intro_animation  div", {
-  display: `none`,
-  duration: 0.6,
-  stagger: 0.24,
-  delay: -0.9,
+tl.to(".intro_animation", {
+  display: "none",
+  delay: -0.8,
 });
