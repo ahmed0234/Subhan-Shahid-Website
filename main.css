@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Helvatica";
-  src: url(/Helvetica.ttf);   
+  src: url(/Helvetica.ttf);
 }
 
 *,
@@ -19,7 +19,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgb(20, 20, 20);
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Helvatica";
 }
 
@@ -32,5 +32,17 @@ body {
   }
   .hover_effect_navbtn {
     @apply hover:-translate-y-2 hover:bg-yellow-400 hover:text-zinc-950 transition-all  shadow-black duration-300 ease-linear;
+  }
+  .header_img {
+    transform: rotateY(180deg);
+  }
+  .header_btn_shadow {
+    box-shadow: 0px 5px 20px rgb(206, 168, 18);
+  }
+  .hexagon_shape {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  .hexagone_shape_shadow {
+    filter: drop-shadow(0px 5px 10px rgb(206, 168, 18));
   }
 }

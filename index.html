@@ -13,9 +13,8 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
     />
   </head>
   <body>
-    <div id="main" class="w-full mx-auto">
-      <!-- INTRO ANIMATION IMAGES DIV MAIN INTRO ANIMATION -->
-       <div class="intro_animation w-full h-[100vh] relative">
+    <!-- INTRO ANIMATION IMAGES DIV MAIN INTRO ANIMATION -->
+    <div class="intro_animation w-full h-[100vh] relative">
         <div class="anime1 w-1/6 h-full absolute top-0 right-0">
           <img
             class="w-full h-full object-cover object-center"
@@ -57,32 +56,137 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
         </div>
       </div> 
 
-      <!-- MAIN CONTE4ENT STARTED HERE -->
+      <!-- ========== END OF INTRO ANIMATINO ============================== -->
 
-      <section class="w-full h-[100vh] bg-zinc-950 text-yellow-400">
-          <div class="cantainer  h-full w-full">
-              <nav class=" pt-8 flex items-center justify-between">
-                  <div class="flex gap-2 items-center cursor-pointer">
-                      <img  class="h-14 w-32" src="/logo1.png" alt="Logo Pic">
+    <div id="main" class="w-full">
+      <!-- MAIN CONTE4ENT STARTED HERE -->
+      <section
+        class="HEADER w-full h-fit bg-zinc-950 text-yellow-400 overflow-hidden"
+      >
+        <div class="cantainer w-full px-4 overflow-hidden">
+          <nav class="pt-8 flex items-center justify-between ">
+            <div class="flex gap-2 items-center cursor-pointer">
+              <img
+                class="h-14 w-32 max-sm:h-9 max-sm:w-20"
+                src="/logo1.png"
+                alt="Logo Pic"
+              />
+            </div>
+            <div class="flex gap-8 text-lg text-yellow-400 max-lg:hidden">
+              <a href="#home" class="hover_effect_navlinks">Home</a>
+              <a href="#home" class="hover_effect_navlinks">Projects</a>
+              <a href="#home" class="hover_effect_navlinks">Services</a>
+              <a href="#home" class="hover_effect_navlinks">Resume</a>
+              <a href="#home" class="hover_effect_navlinks">Projects</a>
+            </div>
+            <div>
+              <button
+                class="max-lg:hidden text-lg px-6 py-2 rounded-full bg-zinc-900 shadow-md shadow-yellow-400 hover_effect_navbtn"
+              >
+                Contact!
+              </button>
+            </div>
+            <div class="items-center justify-center hidden max-lg:flex">
+              <svg
+                class="text-3xl"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <rect width="24" height="24" fill="none" />
+                <path
+                  fill="#ffffff"
+                  d="M16 18v2H5v-2zm5-7v2H3v-2zm-2-7v2H8V4z"
+                />
+              </svg>
+            </div>
+          </nav>
+
+          <header class=" mt-20 flex overflow-hidden max-lg:flex-col max-lg:gap-8">
+            <div class="w-[60%] max-lg:w-full  left text-white flex flex-col gap-6 justify-center">
+              <h2 class="text-3xl max-xl:text-6xl max-lg:text-7xl max-sm:text-4xl">
+                Hello, <span class="text-yellow-400">I'M</span>
+              </h2>
+              <h1 class="text-yellow-400 text-8xl font-semibold max-xl:text-6xl max-lg:text-7xl max-sm:text-4xl">
+                Subhan Shahid
+              </h1>
+              <h1 class="text-5xl">Video Editor, 3d Animator!</h1>
+              <p class="max-w-[60ch] max-sm:w-full">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                assumenda ipsum quis, veritatis fugiat reprehenderit nisi
+                doloribus atque voluptatum repellat magni, quibusdam distinctio
+                sapiente a. Ut omnis iusto labore voluptas.
+              </p>
+              <div class="max-sm:text-center">
+                <button
+                  class="px-7 tracking-widest py-3 text-xl bg-yellow-400 rounded-lg text-black font-semibold header_btn_shadow"
+                >
+                  Let's Talk
+                </button>
+              </div>
+              <div class="socials mt-6 flex items-center gap-6 max-sm:flex-col">
+                <h2>Check Out My</h2>
+                <div class="flex gap-6">
+                <div class="hexagone_shape_shadow">
+                  <div class="hexagon_shape size-14 bg-yellow-400 flex items-center justify-center">
+                    <a href="#"><svg class="text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                      <rect width="24" height="24" fill="none" />
+                      <path fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2 4.5v6.25c0 2.043 1.708 3.75 3.75 3.75c2.043 0 3.75-1.707 3.75-3.75V4.5c1.25 3.125 3.597 10 8.125 10c2.383 0 4.375-1.992 4.375-4.375S20.008 5.75 17.625 5.75c-2.534 0-4.034 1.875-4.375 3.75c-.303 1.662-1.875 10-1.875 10" color="#ffffff" />
+                    </svg></a>
                   </div>
-                  <div class="flex gap-8 text-lg text-yellow-400">
-                      <a href="#home" class="hover_effect_navlinks">Home</a>
-                      <a href="#home" class="hover_effect_navlinks">Projects</a>
-                      <a href="#home" class="hover_effect_navlinks">Services</a>
-                      <a href="#home" class="hover_effect_navlinks">Resume</a>
-                      <a href="#home" class="hover_effect_navlinks">Projects</a>
+                </div>
+
+                <div class="hexagone_shape_shadow">
+                  <div class="hexagon_shape size-14 bg-yellow-400 flex items-center justify-center">
+                    <a href="#"><svg class="text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                      <rect width="24" height="24" fill="none" />
+                      <g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="#ffffff">
+                        <path d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" />
+                        <path d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m1.008-5.5h-.01" />
+                      </g>
+                    </svg></a>
                   </div>
-                  <div>
-                      <button class="text-lg px-6 py-2 rounded-full bg-zinc-900 shadow-md shadow-yellow-400 hover_effect_navbtn">Contact!</button>
+                </div>
+
+                <div class="hexagone_shape_shadow">
+                  <div class="hexagon_shape size-14 bg-yellow-400 flex items-center justify-center">
+                    <a href="#"><svg class="text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
+                      <rect width="15" height="15" fill="none" />
+                      <path fill="none" stroke="black" d="M7.5 14.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Zm0 0v-8a2 2 0 0 1 2-2h.5m-5 4h5" />
+                    </svg></a>
                   </div>
-              </nav>
+                </div>
+              </div>
+
+                <div class="hexagone_shape_shadow">
+                  <div class="hexagon_shape size-14 bg-yellow-400 flex items-center justify-center">
+                    <a href="#"><svg class="text-2xl" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                      <rect width="24" height="24" fill="none" />
+                      <path fill="black"  d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.264 8.264 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07c0 1.22.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28" />
+                    </svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="right w-[40%]  max-lg:w-full ">
+              <img class=" header_img h-full w-full" src="/header1.png" alt="" />
+            </div>
+
+          </header>
+
+        </div>
+      </section>
+
+      <section class="h-[100vh] w-full bg-zinc-900">
+          <div class="p-24">
+            <h1 class="text-yellow-400 text-5xl">More Content Coming Sooon now Because dont have the fking time, fuck this time......</h1>
           </div>
       </section>
-      
+   
 
-
-
-    </div>
+      </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

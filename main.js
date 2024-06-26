@@ -51,7 +51,7 @@ let tl = gsap.timeline();
 tl.to(".intro_animation  div", {
   width: "100%",
   delay: 0.2,
-  duration: 0.4,
+  duration: 0.35,
   stagger: 0.18,
   ease: "sine.out",
 });
@@ -61,9 +61,9 @@ tl.to(".intro_animation  div", {
   left: `-100%`,
   duration: 0.4,
   stagger: 0.2,
-  delay: -0.9,
+  delay: -0.75,
 });
 tl.to(".intro_animation", {
   display: "none",
-  delay: -0.8,
+  delay: -0.67,
 });
