@@ -46,24 +46,24 @@ function locomotiveBoilerPlate() {
 
 locomotiveBoilerPlate();
 
-// let tl = gsap.timeline();
+let tl = gsap.timeline();
 
-// tl.to(".intro_animation  div", {
-//   width: "100%",
-//   delay: 0.2,
-//   duration: 0.4,
-//   stagger: 0.18,
-//   ease: "sine.out",
-// });
+tl.to(".intro_animation  div", {
+  width: "100%",
+  delay: 0.2,
+  duration: 0.4,
+  stagger: 0.18,
+  ease: "sine.out",
+});
 
-// tl.to(".intro_animation  div", {
-//   width: "0%",
-//   left: `-100%`,
-//   duration: 0.4,
-//   stagger: 0.2,
-//   delay: -0.9,
-// });
-// tl.to(".intro_animation", {
-//   display: "none",
-//   delay: -0.8,
-// });
+tl.to(".intro_animation  div", {
+  width: "0%",
+  left: `-100%`,
+  duration: 0.4,
+  stagger: 0.2,
+  delay: -0.9,
+});
+tl.to(".intro_animation", {
+  display: "none",
+  delay: -0.8,
+});
