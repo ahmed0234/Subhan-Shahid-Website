@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,8 +8,6 @@
   font-family: "Helvatica";
   src: url(/Helvetica.ttf);
 }
-
-
 
 *,
 *::after,
@@ -44,6 +41,7 @@ body {
   .header_btn_shadow {
     box-shadow: 0px 5px 20px rgb(206, 168, 18);
   }
+
   .hexagon_shape {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   }
@@ -75,8 +73,8 @@ body {
     width: 0%;
     animation: widen 1s ease-in-out;
   }
-  .bg_gradient_yellow{
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-yellow-200
+  .bg_gradient_yellow {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-yellow-200;
   }
 }
 @keyframes widen {
