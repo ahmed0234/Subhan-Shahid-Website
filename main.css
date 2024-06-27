@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +9,8 @@
   font-family: "Helvatica";
   src: url(/Helvetica.ttf);
 }
+
+
 
 *,
 *::after,
@@ -20,7 +25,7 @@ body {
   width: 100%;
   background-color: rgb(20, 20, 20);
   color: rgb(0, 0, 0);
-  font-family: "Helvatica";
+  font-family: "Sora", sans-serif;
 }
 
 @layer components {
@@ -69,6 +74,9 @@ body {
     overflow: hidden;
     width: 0%;
     animation: widen 1s ease-in-out;
+  }
+  .bg_gradient_yellow{
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-yellow-200
   }
 }
 @keyframes widen {

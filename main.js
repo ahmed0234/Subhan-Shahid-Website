@@ -70,19 +70,43 @@ let tl = gsap.timeline();
 //   delay: -0.67,
 // });
 
-tl.to(".introanimediv", {
-  y: `-100%`,
-  delay: 1.5,
-  duration: 1.5,
+// ===============
+
+// tl.to(".introanimediv", {
+//   y: `-100%`,
+//   delay: 1.5,
+//   duration: 1.5,
+//   ease: "sine.out",
+// });
+// tl.to(".introanimediv", {
+//   display: "none",
+//   duration: 0.1,
+//   delay: -1,
+// });
+// tl.to("text1", {
+//   display: "none",
+//   duration: 0.2,
+//   delay: -0.9,
+// });
+
+tl.from(".reveal", {
+  opacity: 0,
+  y: 100,
+  duration: 0.6,
   ease: "sine.out",
+  stagger: 0.1,
 });
-tl.to(".introanimediv", {
-  display: "none",
-  duration: 0.1,
-  delay: -1,
+
+tl.from(".img_reveal", {
+  top: `130%`,
+  duration: 0.5,
+  ease: `sine.inOut`,
+  delay: `-0.95`,
 });
-tl.to("text1", {
-  display: "none",
-  duration: 0.2,
-  delay: -0.9,
+tl.from(".nav_reveal", {
+  y: -80,
+  opacity: 0,
+  duration: 0.6,
+  ease: "power3.out",
+  delay: `-0.1`,
 });
