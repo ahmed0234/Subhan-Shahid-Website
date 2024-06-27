@@ -45,4 +45,37 @@ body {
   .hexagone_shape_shadow {
     filter: drop-shadow(0px 5px 10px rgb(206, 168, 18));
   }
+  .wrapper.six {
+    background-color: #222222;
+  }
+  .introtxt {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    overflow: hidden;
+  }
+
+  .text1::before {
+    content: attr(data-text);
+    position: absolute;
+    z-index: 1;
+    color: rgb(206, 168, 18);
+    pointer-events: none;
+    width: 0;
+    overflow: hidden;
+    width: 0%;
+    animation: widen 1s ease-in-out;
+  }
+}
+@keyframes widen {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
