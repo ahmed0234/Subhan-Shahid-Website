@@ -20,9 +20,9 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: rgb(20, 20, 20);
   color: rgb(0, 0, 0);
   font-family: "Sora", sans-serif;
+  @apply bg-zinc-950;
 }
 
 @layer components {
@@ -72,7 +72,7 @@ body {
 
     /* Setting different color than 
        that of original text  */
-    color: rgb(206, 168, 18);
+    color: rgb(238, 194, 20);
     overflow: hidden;
 
     /* Setting width as 0*/
