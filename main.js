@@ -72,23 +72,13 @@ let tl = gsap.timeline();
 
 // ===============
 
-// tl.to(".introanimediv", {
-//   y: `-100%`,
-//   delay: 1.5,
-//   duration: 1.5,
-//   ease: "sine.out",
-// });
-// tl.to(".introanimediv", {
-//   display: "none",
-//   duration: 0.1,
-//   delay: -1,
-// });
-// tl.to("text1", {
-//   display: "none",
-//   duration: 0.2,
-//   delay: -0.9,
-// });
-
+tl.to("#introdiv", {
+  delay: 3.5,
+  duration: 0.5,
+  ease: `sine.out`,
+  opacity: 0,
+  display: "none",
+});
 tl.from(".reveal", {
   opacity: 0,
   y: 100,
