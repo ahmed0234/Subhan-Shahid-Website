@@ -36,24 +36,24 @@ let tl = gsap.timeline();
 //   opacity: 0,
 //   display: "none",
 // });
-// tl.from(".reveal", {
-//   opacity: 0,
-//   y: 100,
-//   duration: 0.6,
-//   ease: "sine.out",
-//   stagger: 0.1,
-// });
+tl.from(".reveal", {
+  opacity: 0,
+  y: 100,
+  duration: 0.6,
+  ease: "sine.out",
+  stagger: 0.1,
+});
 
-// tl.from(".img_reveal", {
-//   top: `130%`,
-//   duration: 0.5,
-//   ease: `sine.inOut`,
-//   delay: `-0.95`,
-// });
-// tl.from(".nav_reveal", {
-//   y: -80,
-//   opacity: 0,
-//   duration: 0.6,
-//   ease: "power3.out",
-//   delay: `-0.1`,
-// });
+tl.from(".img_reveal", {
+  top: `130%`,
+  duration: 0.5,
+  ease: `sine.inOut`,
+  delay: `-0.95`,
+});
+tl.from(".nav_reveal", {
+  y: -80,
+  opacity: 0,
+  duration: 0.6,
+  ease: "power3.out",
+  delay: `-0.1`,
+});
