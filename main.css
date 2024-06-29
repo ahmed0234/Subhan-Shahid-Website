@@ -25,6 +25,22 @@ body {
   @apply bg-zinc-950;
 }
 
+@layer base {
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    outline: 1px solid slategrey;
+    @apply bg-yellow-400
+  }
+}
+
 @layer components {
   .cantainer {
     @apply max-w-[1400px] mx-auto;
@@ -94,5 +110,49 @@ body {
     to {
       height: 100%;
     }
+  }
+
+  .ChildServices2::after,
+  .ChildServices3::after,
+  .ChildServices4::after,
+  .ChildServices5::after,
+  .ChildServices6::after,
+  .ChildServices::after {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    cursor: pointer;
+    @apply bg-gradient-to-b from-yellow-600 to-yellow-100;
+  }
+  .ChildServices2:hover::after,
+  .ChildServices3:hover::after,
+  .ChildServices4:hover::after,
+  .ChildServices5:hover::after,
+  .ChildServices6:hover::after,
+  .ChildServices:hover::after {
+    top: 0;
+    transition: 0.5s;
+  }
+
+  .ChildServices2,
+  .ChildServices3,
+  .ChildServices4,
+  .ChildServices5,
+  .ChildServices6,
+  .ChildServices {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .ChildServices2:hover,
+  .ChildServices3:hover,
+  .ChildServices4:hover,
+  .ChildServices5:hover,
+  .ChildServices6:hover,
+  .ChildServices:hover {
+    color: black;
   }
 }
