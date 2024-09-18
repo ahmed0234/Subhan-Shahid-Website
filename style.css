@@ -1662,3 +1662,219 @@ canvas {
   border-left: 1px solid #232935;
 }
 
+
+
+/*--------------------------------------------------------------
+26. Contact Form
+----------------------------------------------------------------*/
+#st-alert {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.st-contact-title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: -6px;
+  margin-bottom: 22px;
+}
+
+.st-form-field {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.st-form-field input,
+.st-form-field textarea {
+  display: block;
+  width: 100%;
+  color: #a9adb8;
+  padding: 12px 20px;
+  border: 1px solid #232935;
+  background-color: #101624;
+  height: 52px;
+  border-radius: 7px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.st-form-field input::-webkit-input-placeholder,
+.st-form-field textarea::-webkit-input-placeholder {
+  color: #3f4551;
+}
+
+.st-form-field input:-ms-input-placeholder,
+.st-form-field textarea:-ms-input-placeholder {
+  color: #3f4551;
+}
+
+.st-form-field input::-ms-input-placeholder,
+.st-form-field textarea::-ms-input-placeholder {
+  color: #3f4551;
+}
+
+.st-form-field input::placeholder,
+.st-form-field textarea::placeholder {
+  color: #3f4551;
+}
+
+.st-form-field input:focus,
+.st-form-field textarea:focus {
+  border-color: #fec544;
+  outline: 0;
+}
+
+.st-form-field textarea {
+  height: 150px;
+}
+
+.st-contact-text {
+  margin-top: -6px;
+  margin-bottom: 23px;
+}
+
+.st-single-contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.st-single-contact-info:hover i {
+  border-color: #fec544;
+}
+
+.st-single-contact-info i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.5px solid #3f4551;
+  border-radius: 50%;
+  background-color: #070d1b;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.st-single-info-details h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -4px;
+  margin-bottom: 6px;
+}
+
+.st-single-info-details a {
+  display: block;
+  margin-bottom: -2px;
+}
+
+.st-single-info-details a:hover {
+  color: #fec544;
+}
+
+.st-single-info-details a:last-child {
+  margin-bottom: -6px;
+}
+
+.st-single-info-details span {
+  display: block;
+  margin-bottom: -2px;
+}
+
+.st-social-info .st-social-text {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.st-social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.st-social-link .st-social-btn {
+  border-radius: 50px;
+  background-color: #070d1b;
+  border: 0.5px solid #3f4551;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.st-social-link .st-social-btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.st-social-link .st-social-btn .st-social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.st-social-link .st-social-btn .st-social-icon i {
+  font-size: 22px;
+}
+
+.st-social-link .st-social-btn .st-icon-name {
+  font-weight: 600;
+  color: #fdfeff;
+  overflow: hidden;
+  max-width: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.st-social-link .st-social-btn:hover, .st-social-link .st-social-btn.active {
+  padding-right: 15px;
+}
+
+.st-social-link .st-social-btn:hover .st-icon-name, .st-social-link .st-social-btn.active .st-icon-name {
+  max-width: 140px;
+}
+
+.st-copyright-wrap {
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
