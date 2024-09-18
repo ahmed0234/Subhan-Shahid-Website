@@ -1,3 +1,5 @@
+import "/bootstrap.min.css";
+import "/style.css";
 import "/main.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -5,29 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 let tl = gsap.timeline();
 
-// PREVIOUS INTRO ANIMAITON
 
-// tl.to(".intro_animation  div", {
-//   width: "100%",
-//   delay: 0.2,
-//   duration: 0.35,
-//   stagger: 0.18,
-//   ease: "sine.out",
-// });
-
-// tl.to(".intro_animation  div", {
-//   width: "0%",
-//   left: `-100%`,
-//   duration: 0.4,
-//   stagger: 0.2,
-//   delay: -0.75,
-// });
-// tl.to(".intro_animation", {
-//   display: "none",
-//   delay: -0.67,
-// });
-
-// ===============
 
 // tl.to("#introdiv", {
 //   delay: 3.5,

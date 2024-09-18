@@ -37,7 +37,7 @@ body {
   body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     outline: 1px solid slategrey;
-    @apply bg-yellow-400
+    @apply bg-yellow-400;
   }
 }
 
@@ -155,4 +155,14 @@ body {
   .ChildServices:hover {
     color: black;
   }
+
+  .hover_parent:hover .img_hover {
+    filter: grayscale(0%);
+    transition: 0.3s ease-in-out;
+  }
+
+  .profile_pic {
+    @apply absolute  rounded-[4rem] border-2 border-opacity-60 rotate-3 hover:rotate-0 hover:border-opacity-100 hover:border-4 transition-all duration-300 ease-in-out border-yellow-500 h-full w-full object-cover object-center;
+  }
+  
 }
