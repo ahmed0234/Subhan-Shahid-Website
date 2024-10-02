@@ -5,6 +5,18 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+
+
+
+
+const showcasepage = document.querySelector('.showcasepage')
+const mainpage = document.querySelector('.mainpage')
+
+
+
+
+
+
 let tl = gsap.timeline();
 
 
@@ -37,3 +49,6 @@ tl.from(".nav_reveal", {
   ease: "power3.out",
   delay: `-0.1`,
 });
+
+
+
